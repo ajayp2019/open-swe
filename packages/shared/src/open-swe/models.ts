@@ -84,6 +84,23 @@ export const MODEL_OPTIONS = [
     label: "Gemini 2.5 Flash",
     value: "google-genai:gemini-2.5-flash",
   },
+  // Ollama models section
+  {
+    label: "Qwen 2.5 7B (Local)",
+    value: "ollama:qwen2.5:7b",
+  },
+  {
+    label: "Llama 3.2 Latest (Local)",
+    value: "ollama:llama3.2:latest",
+  },
+  {
+    label: "DeepSeek R1 1.5B (Local)",
+    value: "ollama:deepseek-r1:1.5b",
+  },
+  {
+    label: "LLaVA Latest (Local)",
+    value: "ollama:llava:latest",
+  },
 ];
 
 export const MODEL_OPTIONS_NO_THINKING = MODEL_OPTIONS.filter(

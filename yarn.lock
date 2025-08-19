@@ -3280,6 +3280,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@langchain/ollama@npm:^0.2.3":
+  version: 0.2.3
+  resolution: "@langchain/ollama@npm:0.2.3"
+  dependencies:
+    ollama: ^0.5.12
+    uuid: ^10.0.0
+  peerDependencies:
+    "@langchain/core": ">=0.3.58 <0.4.0"
+  checksum: 4091b27bed75f57c44f7db96ad702ec14f312ff489af59f3f4fbdb6f436fb8bff12dc3d16beaf445c0e2b818a3adb79eb9285799a6e126b909cc2330203b85af
+  languageName: node
+  linkType: hard
+
 "@langchain/openai@npm:>=0.1.0 <0.7.0, @langchain/openai@npm:>=0.2.0 <0.7.0":
   version: 0.6.2
   resolution: "@langchain/openai@npm:0.6.2"
@@ -4104,6 +4116,7 @@ __metadata:
     "@langchain/langgraph-cli": ^0.0.47
     "@langchain/langgraph-sdk": ^0.0.95
     "@langchain/mcp-adapters": ^0.5.2
+    "@langchain/ollama": ^0.2.3
     "@langchain/openai": ^0.5.10
     "@mendable/firecrawl-js": ^1.29.1
     "@octokit/app": ^16.0.1
@@ -16101,6 +16114,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ollama@npm:^0.5.12":
+  version: 0.5.17
+  resolution: "ollama@npm:0.5.17"
+  dependencies:
+    whatwg-fetch: ^3.6.20
+  checksum: 151f1b0d69ea1f54927c4e92537f7dafa28f93d7b7d2d362387e046d5fea21eae07997b4c055f9a2579058bb88daad20a953ea300a93799d4ee78736e1a0af71
+  languageName: node
+  linkType: hard
+
 "on-finished@npm:2.4.1, on-finished@npm:^2.4.1":
   version: 2.4.1
   resolution: "on-finished@npm:2.4.1"
@@ -20600,6 +20622,13 @@ __metadata:
   version: 3.0.1
   resolution: "webidl-conversions@npm:3.0.1"
   checksum: c92a0a6ab95314bde9c32e1d0a6dfac83b578f8fa5f21e675bc2706ed6981bc26b7eb7e6a1fab158e5ce4adf9caa4a0aee49a52505d4d13c7be545f15021b17c
+  languageName: node
+  linkType: hard
+
+"whatwg-fetch@npm:^3.6.20":
+  version: 3.6.20
+  resolution: "whatwg-fetch@npm:3.6.20"
+  checksum: c58851ea2c4efe5c2235f13450f426824cf0253c1d45da28f45900290ae602a20aff2ab43346f16ec58917d5562e159cd691efa368354b2e82918c2146a519c5
   languageName: node
   linkType: hard
 
